@@ -56,15 +56,39 @@
 		040E65DE276690A40083061F /* Quizlet */ = {
 			isa = PBXGroup;
 			children = (
+				040E65F4276699130083061F /* Model */,
+				040E65F5276699210083061F /* View */,
+				040E65F627669B300083061F /* Controller */,
 				040E65DF276690A40083061F /* AppDelegate.swift */,
 				040E65E1276690A40083061F /* SceneDelegate.swift */,
-				040E65E3276690A40083061F /* ViewController.swift */,
-				040E65E5276690A40083061F /* Main.storyboard */,
 				040E65E8276690A50083061F /* Assets.xcassets */,
 				040E65EA276690A50083061F /* LaunchScreen.storyboard */,
 				040E65ED276690A50083061F /* Info.plist */,
 			);
 			path = Quizlet;
+			sourceTree = "<group>";
+		};
+		040E65F4276699130083061F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040E65F5276699210083061F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040E65E5276690A40083061F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040E65F627669B300083061F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040E65E3276690A40083061F /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
